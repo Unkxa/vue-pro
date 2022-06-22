@@ -7,20 +7,21 @@
       <el-button type="info">信息按钮</el-button>
       <el-button type="warning">警告按钮</el-button>
       <el-button type="danger">危险按钮</el-button>
+      <div>
+        
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-import './AboutView.scss'
+// import './AboutView.scss'
 // import * as black from './AboutView-black.scss'
+import * as d3 from 'd3'
 export default {
   data:()=>{
     return {
       showThme : false,
-      themeUrl : './AboutView.scss',
-      white : './AboutView.scss',
-      black:'./AboutView-black.scss'
     }
   },
   methods:{
